@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "lib": ["ES5", "ES6", "ES2016", "ES2020", "DOM"]
+  },
+  "exclude": ["*.js"]
+}
