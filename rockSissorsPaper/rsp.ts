@@ -5,6 +5,7 @@ interface RSP {
   SCISSORS: "-142px";
   PAPER: "-284px";
 }
+
 const rsp: RSP = {
   ROCK: "0",
   SCISSORS: "-142px",
