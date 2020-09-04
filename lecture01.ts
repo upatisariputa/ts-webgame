@@ -50,7 +50,7 @@ const hi: any = [];
 // (<string><unknown>hello)
 
 const div = document.createElement("div");
-const a = div as HTMLElement; // 서로 상속 관계가 있으므로 unknown을 사용하지 않음
+const doNotUnkown = div as HTMLElement; // 서로 상속 관계가 있으므로 unknown을 사용하지 않음
 
 // var num = 3; // as const를 사용하면 read only가 된다.
 // var arr = [1, 2, 3];
