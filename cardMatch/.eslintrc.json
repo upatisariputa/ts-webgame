@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./cardMatch/tsconfig.json",
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": ["@typescript-eslint"],
+    "ignorePatterns": ["dist/", "node_modules/"],
+    "rules": {
+        "strict":"warn",
+        "max-len" :["warn", {"code": 1000}],
+        "max-depth":"warn",
+        "no-unexpected-multiline":"error",
+        "dot-location":"off"
+    }
+}
